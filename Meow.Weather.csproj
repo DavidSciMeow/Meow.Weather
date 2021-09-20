@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Electronicute.Weather</AssemblyName>
+    <Description>中央气象台获取组件</Description>
+    <Copyright>Electronicute @ 2021</Copyright>
+    <PackageLicenseExpression>GPLV2</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WeatherTest\**" />
+    <EmbeddedResource Remove="WeatherTest\**" />
+    <None Remove="WeatherTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Electronicute.Meow" Version="2.1.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
