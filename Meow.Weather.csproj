@@ -5,7 +5,7 @@
     <AssemblyName>Electronicute.Weather</AssemblyName>
     <Description>中央气象台获取组件</Description>
     <Copyright>Electronicute @ 2021</Copyright>
-    <PackageLicenseExpression>GPLV2</PackageLicenseExpression>
+    <PackageLicenseExpression>GPL</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
