@@ -6,9 +6,8 @@ namespace WeatherTest
     {
         static void Main(string[] args)
         {
-            var s = "山东 青岛";
-            var ss = Meow.Weather.CN.Interpreter.RectifyWord(s.Split(' ')).GetAwaiter().GetResult();
-            Console.WriteLine(ss);
+            var k = new Meow.Weather.CN.主要功能.GRAPES台风预报.台风路径();
+            Console.WriteLine(k.Data[0].ImgUrl);
         }
     }
 }
